@@ -1,0 +1,29 @@
+{
+    "name": "branzia/blog",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Branzia\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Visvanathan D",
+            "email": "visvanathan.tech@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Branzia\\Blog\\BlogServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
