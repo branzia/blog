@@ -23,22 +23,6 @@ class BlogServiceProvider extends BranziaServiceProvider implements ProvidesFila
     {
         parent::register();
     }
-    public static function filamentDiscoveryPaths(): array
-    {
-        return [
-            'resources' => [
-                ['path' => __DIR__.'/Filament/Resources', 'namespace' => 'Branzia\\Blog\\Filament\\Resources'],
-            ],
-            'pages' => [
-                ['path' => __DIR__.'/Filament/Pages', 'namespace' => 'Branzia\\Blog\\Filament\\Pages'],
-            ],
-            'clusters' => [
-                ['path' => __DIR__.'/Filament/Clusters', 'namespace' => 'Branzia\\Blog\\Filament\\Clusters'],
-            ],
-            'widgets' => [
-                ['path' => __DIR__.'/Filament/Widgets', 'namespace' => 'Branzia\\Blog\\Filament\\Widgets'],
-            ],
-        ];
-    }
+
 }
 
